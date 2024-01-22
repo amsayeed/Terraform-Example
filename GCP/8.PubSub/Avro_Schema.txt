@@ -1,0 +1,31 @@
+{
+  "namespace": "com.example",
+  "type": "record",
+  "name": "SimpleOrder",
+  "fields": [
+    {
+      "name": "order_id",
+      "type": "long"
+    },
+    {
+      "name": "customer_email",
+      "type": "string"
+    },
+    {
+      "name": "order_total",
+      "type": "string"
+    },
+    {
+      "name": "order_date",
+      "type": "string"
+    },
+    {
+      "name": "order_status",
+      "type": "string"
+    },
+    {
+      "name": "is_paid",
+      "type": "boolean"
+    }
+  ]
+}
